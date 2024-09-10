@@ -33,18 +33,21 @@ if (num > 0) {
 
 //  3
 
-// let result;
+let a =Number(prompt("Введите число"));
+let b = Number(prompt("Введите число"));
+let result = (a + b < 4) ? 'Мало' : 
+'Много';
+console.log(result);
 
-// result = a + b < 4 ? "Много" : "Мало";
 
 // 4
 
-// let message;
-
-// message = login == 'Сотрудник' ? 'Привет' :
-//     login == 'Директор' ? 'Здравствуйте' :
-//         login == '' ? 'Нет логина' :
-//             "";
+let l = prompt("Введите логин");
+let message = (l == 'Сотрудник') ? 'Привет' : 
+(l == 'Директор') ? 'Здравствуйте' : 
+(l == '') ? 'Нет логина' :
+'Неверно'
+console.log(message); 
 
 // 5
 
